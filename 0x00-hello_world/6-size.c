@@ -6,9 +6,10 @@
  */
 int main(void)
 {
-	pintf("Size of a char: %d byte(s)\n", sizeof(char));
-	pintf("Size of an int: %d byte(s)\n", sizeof(int));
-	pintf("Size of a long int: %d byte(s)\n", sizeof(long int));
-	pintf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
-	pintf("Size of a float: %d byte(s)\n", sizeof(float));
+	pintf("Size of a char: %ld byte(s)\n", sizeof(char));
+	pintf("Size of an int: %ld byte(s)\n", sizeof(int));
+	pintf("Size of a long int: %ld byte(s)\n", sizeof(long int));
+	pintf("Size of a long long int: %ld byte(s)\n", sizeof(long long int));
+	pintf("Size of a float: %ld byte(s)\n", sizeof(float));
+	return 0;
 }
