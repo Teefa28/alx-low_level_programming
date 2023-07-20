@@ -1,18 +1,23 @@
 #include "main.h"
 /**
- * positive_or_negative - entry point
+ * positive_or_negative - Determine if a number is positive, negative or zero
  * @i: parameter
- * Return: always 0
+ *Return: 0 on success
  */
 
 void positive_or_negative(int i)
 {
-int n;
-if (n > 0)
-printf("%i is positive", n);
-else if (n == 0)
-printf("%i is zero", n);
-else if (n < 0)
-printf("%i is negative", n);
-printf("\n");
+if (i < 0)
+{
+printf("%d is %s\n", i, "negative");
+}
+else if (i > 0)
+{
+printf("%d is %s\n", i, "positive");
+}
+else
+{
+printf("%d is %s\n", i, "zero");
+}
+return;
 }
