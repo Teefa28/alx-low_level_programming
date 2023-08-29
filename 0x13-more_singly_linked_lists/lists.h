@@ -9,7 +9,7 @@
  * @n: integer
  * @next: points to the next node
  *
- * Description: singly linked list node structure
+ * Description: singly linked list node structure for project
  * 
  */
 typedef struct listint_s
@@ -33,4 +33,5 @@ listint_t *reverse_listint(listint_t **head);
 size_t print_listint_safe(const listint_t *head);
 size_t free_listint_safe(listint_t **h);
 listint_t *find_listint_loop(listint_t *head);
+
 #endif
